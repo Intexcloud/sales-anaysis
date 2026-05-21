@@ -33,10 +33,10 @@ This repository contains an automated end-to-end data pipeline built for a retai
 superstore-analytics-pipeline/
 │
 ├── data/
-│   ├── raw/                 <- Place your raw CSV file here
-│   └── processed/           <- Cleaned CSV and DuckDB database will be generated here
+│   ├── raw/                 <- raw CSV file here
+│   └── processed/           <- Cleaned CSV and DuckDB database 
 │
-├── output/                  <- Dashboard PNG and Power BI Excel file will be generated here
+├── output/                  <- Dashboard PNG and Power BI Excel file 
 │
 ├── src/
 │   └── pipeline.py          <- Main Python execution script

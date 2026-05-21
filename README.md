@@ -15,9 +15,8 @@ This repository contains an automated end-to-end data pipeline built for a retai
 2. **Load & Query (DuckDB):** - Instant conversion of Pandas DataFrames into highly optimized SQL tables.
    - Execution of 9 specific analytical aggregations including YoY Growth, Category Performance, and Geo-mapping data.
    - Advanced SQL modeling: Root Cause Analysis (RCA) for Loss-Making Orders and RFM-style Customer Value segmentation.
-3. **Visualize & Export (Matplotlib & Openpyxl):**
-   - Renders a high-resolution grid-based PNG dashboard using Matplotlib.
-   - Outputs a multi-sheet `.xlsx` file designed as a semantic layer for Power BI.
+3. **Export Semantic Layer:**
+   - Outputs a multi-sheet `.xlsx` file (`superstore_powerbi_full.xlsx`) containing both the cleaned Fact Table and all aggregated Dimension tables, ready to be consumed by Power BI.
 
 ## 📊 Executive Dashboard Preview
 ![Dashboard Preview](output/dashboard.png)
